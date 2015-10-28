@@ -1,0 +1,450 @@
+/*
+Theme Name: OPS Brasil Boletim
+Theme URI: *
+Description: Tema desenvolvido pela BIREME para o Boletim Informativo PWR-Brasil.
+Version: 1.0
+Author: DGI|BIREME
+Author URI: http://regional.bvsalud.org
+Tags: boletim, PWR, OPS, BIREME
+
+*/
+
+body {
+	background: #FFF;
+	margin: 0px;
+	padding: 0px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #4f4f4f;
+	background: #FFF;
+}
+a {
+	color: #4f4f4f;
+	text-decoration: none;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+li {
+	list-style: none;
+}
+
+h4 {
+	margin: 0px;
+	color: #7b0b1d;
+	font-size: 12px;
+}
+
+.spacer {
+	clear: both;
+	font-size: 1px;
+	height: 1px;
+}
+#page {
+	width: 1000px;
+	margin: 0 auto;
+	background: url(images/contentBG.jpg) top left repeat-y;
+}
+
+#header {
+	height: 130px;
+	margin: 0px;
+	background: url(images/banner.jpg) top left no-repeat;
+}
+#header h1 {
+	display: none;
+}
+
+.barDate {
+	background: url(images/dateBG.png) top left repeat-x;
+	height: 30px;
+}
+.barDate .date {
+	color: #FFF;
+	font-weight: bold;
+	float: right;
+	margin: 7px;
+	font-size: 90%;
+}
+
+.menu01 {
+	float: left;
+	width: 170px;
+	min-height: 500px;
+	background: url(images/bg_menu01.jpg) top left no-repeat;
+}
+.menu01 h2 {
+	display: none;
+}
+.menu01 a {
+	color: #FFF;
+	text-decoration: none;
+}
+.menu01 ul {
+	margin: 0px 3px 0px 4px;
+	padding: 0px;
+}
+.menu01 ul li {
+	list-style: none;
+	padding: 7px 5px;
+	border-bottom: 1px solid #7997ae;
+	
+}
+.menu01 ul li:hover {
+	background: #033a64;
+}
+#content {
+	float: left;
+	width: 660px;
+	min-height: 500px;
+	margin: 0px 0px 0px 2px
+}
+
+.menu02 {
+	float: right;
+	width: 168px;
+	min-height: 500px;
+}
+
+.highlight {
+	border: 1px solid #e2e2e2;
+	border-top: 3px solid #bbd6ef;
+	background: url(images/highlightBG.jpg) bottom left repeat-x;
+}
+.highlight .carousel-pagination {
+	position: absolute;
+	top: 170px;
+	width: 658px;
+	font-size: 10px;
+}
+.highlight .carousel-pagination a {
+	padding: 2px 4px;
+	border-left: 1px solid #cecece;
+}
+.highlight .carousel-pagination a span {
+	padding: 3px 5px; 
+}
+.highlight .carousel-pagination a.active span {
+	background: #0b4b7b;
+	color: #FFF;
+}
+.highlight .carousel-pagination p {
+	text-align: right;
+	padding: 0px;
+	margin: 0px;
+}
+
+.highlight ul {
+	margin: 0px;
+	padding: 0px;
+}
+.highlight li {
+	width: 658px;
+	height: 225px;
+	float: left;
+	list-style: none;
+}
+
+.highlightBox h2 {
+	color: #0d4b7a;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	margin: 5px 0px 0px 0px;
+}
+.highlightBox h3 {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	margin: 0px;
+}
+.highlightBox h3 a {
+	color: #0b4b7b;
+}
+.highlightBox h4 {
+	margin: 10px 0px 0px 0px;
+	color: #7b0b1d;
+}
+.highlightBox .thumb img {
+	height: 200px;
+}
+.highlightBox .resumo p {
+	margin-right: 10px;
+}
+.thumb {
+	float: left;
+	margin: 10px;
+}
+
+.carousel-previous, .carousel-next {
+	display: none;
+}
+
+.destaque2 {
+	width: 500px;
+	float: left;
+	margin-bottom: 15px;
+}
+.destaque2 .thumb, .arquivo .thumb {
+	margin: 10px 10px  2px 2px;
+}
+.destaque2 .thumb img, .arquivo .thumb img {
+	width: 130px;
+}
+.destaque2 li, .arquivo li {
+	clear: both;
+	margin-top: 10px;
+}
+
+.destaque2 h3, .searchResult li h3, .arquivo h3  {
+	margin: 0px;
+	font-size: 18px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+}
+.destaque2 h3 a, .arquivo h3 a {
+	color: #0b4b7b;
+}
+.destaque2 .resumo p, .arquivo .resumo p {
+	font-size: 80%;
+	line-height: 160%;
+}
+
+.destaque3 {
+	margin: 0px;
+	float: right;
+	width: 150px;
+}
+.destaque3 p.storytitle {
+	margin: 0px 0px 10px 0px;
+	line-height: 130%;
+}
+.destaque3 li {
+	border-bottom: 1px solid #c9def1;
+	margin-top: 10px;
+}
+
+.menu02 .widget {
+	margin: 0px 0px 10px 7px;
+}
+.menu02 .widget li {
+	border-bottom: 1px solid #0b4b7b;
+	padding: 7px 5px;
+}
+.menu02 .widget li:hover {
+	background: #033A64;
+}
+.menu02 .widget li:hover a {
+	color: #FFF;
+}
+.menu02 .widget li a {
+	color: #074b7b;
+}
+
+.menu02 .widget h2.widgettitle {
+	background: #2e6893;
+	color: #FFF;
+	margin: 0px;
+	font-size: 14px;
+	padding: 4px;
+}
+.menu02 .widget_search h2.widgettitle {
+	background: none;
+	color: #0b4b7b;
+}
+.menu02 .widget_search form  {
+	margin: 0px 5px;
+}
+.menu02 .widget_search form label {
+	display: none;
+}
+.menu02 .widget_search form  #s {
+	width: 140px;
+}
+.menu02 .widget_search form  #searchsubmit {
+	background: #0b4b7b;
+	border: 1px solid;
+	border-color: #80a8c5 #0d3b5d #0d3b5d #80a8c5;
+	margin: 5px 0px 0px 62px;
+	color: #FFF;
+}
+
+.post {
+	padding: 0px 5px;
+}
+.post h2, .pagetitle  {
+	margin: 10px 0px 0px 0px;
+	color: #0c4c7c;
+	font-size: 17px;
+}
+.post p {
+	margin: 8px 0px 12px 0px;
+	line-height: 180%;
+}
+
+.newsDate {
+	font-size: 10px;
+}
+
+.newsInfo {
+	border-top: 4px solid #e8f5fe;
+	margin-bottom: 40px;
+}
+.newsInfo p {
+	border-top: 4px solid #c9def3;
+	margin: 0px;
+	font-size: 10px;
+}
+.newsInfo span {
+	font-weight: bold;
+}
+
+.gallery {
+	width: 200px;
+	float: right;
+	margin-left: 20px;
+	margin-right: 0px;
+}
+.gallery .gallery-item {
+	clear: both;
+	margin: 0px 0px 10px 0px;
+}
+.gallery .gallery-item .gallery-caption {
+	margin: 2px 4px 5px 4px;
+	clear: both;
+	font-size: 9px;
+}
+
+.gallery .gallery-item a img {
+	border: none;
+}
+
+.searchResult  {
+	margin-bottom: 40px !important;
+}
+.searchResult li {
+	margin-top: 15px;
+}
+
+.searchResult li h4 a {
+	color: #7b0b1d;
+}
+.searchResult li h3 {
+	margin: 0px;
+}
+.searchResult li h3 a {
+	color: #0b4b7b;
+}
+.searchResult .excerpt p {
+	margin: 0px;
+	font-size: 10px;
+}
+
+#footer {
+	clear: both;
+	height: 60px;
+	background: #d9e2ea url(images/fotterPWR.jpg) top left no-repeat;
+	font-size: 10px;
+	padding: 30px 10px 10px 170px;
+}
+/*******************************/
+.tv {
+	background: none;
+}
+
+.tv ul {
+	margin: 0px;
+	padding: 0px;
+}
+.tv li {
+	width: 1600px;
+	float: left;
+	list-style: none;
+}
+
+
+.tvBox h3 {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	margin: 0px;
+}
+
+.highlightTV h3 {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 35px;
+	margin: 0px;
+}
+.highlightTV h3 a {
+	color: #0b4b7b;
+}
+.highlightTV h4 {
+	margin: 50px 0px 0px 0px;
+	color: #7b0b1d;
+	font-size: 28px;
+}
+.highlightTV .thumb  {
+	padding: 50px;
+	height: 500px;
+}
+.highlightTV .thumb img {
+	height: 400px;
+}
+.highlightTV .resumo p {
+	margin-right: 10px;
+	font-size: 25px;
+}
+
+/****** TV 1024 ***/
+.highlightTV1024 .tv li {
+	width: 1024px;
+	float: left;
+	list-style: none;
+}
+
+
+.highlightTV1024 .tvBox h3 {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	margin: 0px;
+}
+
+.highlightTV1024 h3 {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	margin: 0px;
+	padding: 0px 10px;
+}
+.highlightTV1024 h3 a {
+	color: #0b4b7b;
+}
+.highlightTV1024 h4 {
+	margin: 30px 0px 0px 0px;
+	color: #7b0b1d;
+	font-size: 22px;
+}
+.highlightTV1024 .thumb  {
+	padding: 25px 10px;
+	height: 400px;
+}
+.highlightTV1024 .thumb img {
+	/*height: 350px;*/
+}
+.highlightTV1024 .resumo p {
+	margin-right: 7px;
+	font-size: 18px;
+	padding: 0px 30px 0px 0px;
+}
+.entry .wp-caption {
+	float: right;
+}
+
+.entry a img, .entry img {
+	border: none;
+	float: right;
+	margin: 5px 0px 5px 5px;
+	}
+.entry .wp-caption .wp-caption-text{
+	text-align: center;
+	font-size: 9px;
+	}
